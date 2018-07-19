@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  TestCell.h
 //  FontDemo
 //
 //  Created by luckyCoderCai on 2018/7/18.
@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class TestModel;
+@interface TestCell : UITableViewCell
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) TestModel *model;
 
 @end
-

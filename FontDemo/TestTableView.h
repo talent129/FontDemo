@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  TestTableView.h
 //  FontDemo
 //
 //  Created by luckyCoderCai on 2018/7/18.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface TestTableView : UITableView
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) NSArray *dataArray;
 
 @end
-

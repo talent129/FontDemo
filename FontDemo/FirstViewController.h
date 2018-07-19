@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  FirstViewController.h
 //  FontDemo
 //
 //  Created by luckyCoderCai on 2018/7/18.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface FirstViewController : UIViewController
 
 @end
-

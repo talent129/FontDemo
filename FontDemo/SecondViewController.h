@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  FontDemo
 //
 //  Created by luckyCoderCai on 2018/7/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SecondViewController : UIViewController
 
 @end
-

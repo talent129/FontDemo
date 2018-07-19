@@ -7,25 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7179599AD66F01AAC0CFC836 /* libPods-FontDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EA94C578EB41528924A921 /* libPods-FontDemo.a */; };
 		CB2FB9B320FF2E1E00B295AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2FB9B220FF2E1E00B295AC /* AppDelegate.m */; };
-		CB2FB9B620FF2E1E00B295AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2FB9B520FF2E1E00B295AC /* ViewController.m */; };
 		CB2FB9B920FF2E1E00B295AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2FB9B720FF2E1E00B295AC /* Main.storyboard */; };
 		CB2FB9BB20FF2E1E00B295AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2FB9BA20FF2E1E00B295AC /* Assets.xcassets */; };
 		CB2FB9BE20FF2E1E00B295AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2FB9BC20FF2E1E00B295AC /* LaunchScreen.storyboard */; };
 		CB2FB9C120FF2E1E00B295AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2FB9C020FF2E1E00B295AC /* main.m */; };
+		CB2FB9C920FF2FC900B295AC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2FB9C820FF2FC900B295AC /* FirstViewController.m */; };
+		CB2FB9CC20FF2FD000B295AC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2FB9CB20FF2FD000B295AC /* SecondViewController.m */; };
+		CB2FB9CF20FF2FD700B295AC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2FB9CE20FF2FD700B295AC /* ThirdViewController.m */; };
+		CB2FB9D220FF313B00B295AC /* FirstDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2FB9D120FF313B00B295AC /* FirstDetailViewController.m */; };
+		CB2FB9D720FF35A800B295AC /* FontInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2FB9D620FF35A800B295AC /* FontInstance.m */; };
+		CB2FB9DA20FF403700B295AC /* SecondDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2FB9D920FF403700B295AC /* SecondDetailViewController.m */; };
+		CB2FB9DD20FF404000B295AC /* ThirdDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2FB9DC20FF404000B295AC /* ThirdDetailViewController.m */; };
+		CB2FB9E020FF415700B295AC /* TestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2FB9DF20FF415700B295AC /* TestTableView.m */; };
+		CB2FB9E320FF416100B295AC /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2FB9E220FF416100B295AC /* TestCell.m */; };
+		CB2FB9E620FF416B00B295AC /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2FB9E520FF416B00B295AC /* TestModel.m */; };
+		CB2FB9EA20FF43D900B295AC /* List.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB2FB9E920FF43D900B295AC /* List.plist */; };
+		CB2FB9ED210078ED00B295AC /* NaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2FB9EC210078ED00B295AC /* NaviViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0172C7AFEB75C661EC5B5CB2 /* Pods-FontDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FontDemo/Pods-FontDemo.release.xcconfig"; sourceTree = "<group>"; };
+		27EA94C578EB41528924A921 /* libPods-FontDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		843FBCC0DF7B9B58B7E98542 /* Pods-FontDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FontDemo/Pods-FontDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CB2FB9AE20FF2E1E00B295AC /* FontDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2FB9B120FF2E1E00B295AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB2FB9B220FF2E1E00B295AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CB2FB9B420FF2E1E00B295AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CB2FB9B520FF2E1E00B295AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CB2FB9B820FF2E1E00B295AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB2FB9BA20FF2E1E00B295AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB2FB9BD20FF2E1E00B295AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB2FB9BF20FF2E1E00B295AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB2FB9C020FF2E1E00B295AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB2FB9C720FF2FC900B295AC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CB2FB9C820FF2FC900B295AC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CB2FB9CA20FF2FD000B295AC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CB2FB9CB20FF2FD000B295AC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CB2FB9CD20FF2FD700B295AC /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		CB2FB9CE20FF2FD700B295AC /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		CB2FB9D020FF313B00B295AC /* FirstDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstDetailViewController.h; sourceTree = "<group>"; };
+		CB2FB9D120FF313B00B295AC /* FirstDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstDetailViewController.m; sourceTree = "<group>"; };
+		CB2FB9D420FF31BF00B295AC /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		CB2FB9D520FF35A800B295AC /* FontInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontInstance.h; sourceTree = "<group>"; };
+		CB2FB9D620FF35A800B295AC /* FontInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontInstance.m; sourceTree = "<group>"; };
+		CB2FB9D820FF403700B295AC /* SecondDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondDetailViewController.h; sourceTree = "<group>"; };
+		CB2FB9D920FF403700B295AC /* SecondDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondDetailViewController.m; sourceTree = "<group>"; };
+		CB2FB9DB20FF404000B295AC /* ThirdDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdDetailViewController.h; sourceTree = "<group>"; };
+		CB2FB9DC20FF404000B295AC /* ThirdDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdDetailViewController.m; sourceTree = "<group>"; };
+		CB2FB9DE20FF415700B295AC /* TestTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableView.h; sourceTree = "<group>"; };
+		CB2FB9DF20FF415700B295AC /* TestTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableView.m; sourceTree = "<group>"; };
+		CB2FB9E120FF416100B295AC /* TestCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		CB2FB9E220FF416100B295AC /* TestCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
+		CB2FB9E420FF416B00B295AC /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		CB2FB9E520FF416B00B295AC /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		CB2FB9E920FF43D900B295AC /* List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = List.plist; sourceTree = "<group>"; };
+		CB2FB9EB210078ED00B295AC /* NaviViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NaviViewController.h; sourceTree = "<group>"; };
+		CB2FB9EC210078ED00B295AC /* NaviViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaviViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +70,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7179599AD66F01AAC0CFC836 /* libPods-FontDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D47C67EA2D175801BEB72B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27EA94C578EB41528924A921 /* libPods-FontDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CB2FB9A520FF2E1E00B295AC = {
 			isa = PBXGroup;
 			children = (
 				CB2FB9B020FF2E1E00B295AC /* FontDemo */,
 				CB2FB9AF20FF2E1E00B295AC /* Products */,
+				F7BBECD8DE15860005DBC54B /* Pods */,
+				0D47C67EA2D175801BEB72B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +106,32 @@
 		CB2FB9B020FF2E1E00B295AC /* FontDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CB2FB9E920FF43D900B295AC /* List.plist */,
 				CB2FB9B120FF2E1E00B295AC /* AppDelegate.h */,
 				CB2FB9B220FF2E1E00B295AC /* AppDelegate.m */,
-				CB2FB9B420FF2E1E00B295AC /* ViewController.h */,
-				CB2FB9B520FF2E1E00B295AC /* ViewController.m */,
+				CB2FB9EB210078ED00B295AC /* NaviViewController.h */,
+				CB2FB9EC210078ED00B295AC /* NaviViewController.m */,
+				CB2FB9C720FF2FC900B295AC /* FirstViewController.h */,
+				CB2FB9C820FF2FC900B295AC /* FirstViewController.m */,
+				CB2FB9CA20FF2FD000B295AC /* SecondViewController.h */,
+				CB2FB9CB20FF2FD000B295AC /* SecondViewController.m */,
+				CB2FB9CD20FF2FD700B295AC /* ThirdViewController.h */,
+				CB2FB9CE20FF2FD700B295AC /* ThirdViewController.m */,
+				CB2FB9D020FF313B00B295AC /* FirstDetailViewController.h */,
+				CB2FB9D120FF313B00B295AC /* FirstDetailViewController.m */,
+				CB2FB9D820FF403700B295AC /* SecondDetailViewController.h */,
+				CB2FB9D920FF403700B295AC /* SecondDetailViewController.m */,
+				CB2FB9DB20FF404000B295AC /* ThirdDetailViewController.h */,
+				CB2FB9DC20FF404000B295AC /* ThirdDetailViewController.m */,
+				CB2FB9DE20FF415700B295AC /* TestTableView.h */,
+				CB2FB9DF20FF415700B295AC /* TestTableView.m */,
+				CB2FB9E120FF416100B295AC /* TestCell.h */,
+				CB2FB9E220FF416100B295AC /* TestCell.m */,
+				CB2FB9E420FF416B00B295AC /* TestModel.h */,
+				CB2FB9E520FF416B00B295AC /* TestModel.m */,
+				CB2FB9D420FF31BF00B295AC /* Define.h */,
+				CB2FB9D520FF35A800B295AC /* FontInstance.h */,
+				CB2FB9D620FF35A800B295AC /* FontInstance.m */,
 				CB2FB9B720FF2E1E00B295AC /* Main.storyboard */,
 				CB2FB9BA20FF2E1E00B295AC /* Assets.xcassets */,
 				CB2FB9BC20FF2E1E00B295AC /* LaunchScreen.storyboard */,
@@ -71,6 +141,15 @@
 			path = FontDemo;
 			sourceTree = "<group>";
 		};
+		F7BBECD8DE15860005DBC54B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				843FBCC0DF7B9B58B7E98542 /* Pods-FontDemo.debug.xcconfig */,
+				0172C7AFEB75C661EC5B5CB2 /* Pods-FontDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB2FB9C420FF2E1E00B295AC /* Build configuration list for PBXNativeTarget "FontDemo" */;
 			buildPhases = (
+				E9A4E8CB862EB26EDFCF4B4E /* [CP] Check Pods Manifest.lock */,
 				CB2FB9AA20FF2E1E00B295AC /* Sources */,
 				CB2FB9AB20FF2E1E00B295AC /* Frameworks */,
 				CB2FB9AC20FF2E1E00B295AC /* Resources */,
+				4942CB340163CBF173E152DB /* [CP] Embed Pods Frameworks */,
+				95D0D30870CC6CB42FBF3435 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2FB9EA20FF43D900B295AC /* List.plist in Resources */,
 				CB2FB9BE20FF2E1E00B295AC /* LaunchScreen.storyboard in Resources */,
 				CB2FB9BB20FF2E1E00B295AC /* Assets.xcassets in Resources */,
 				CB2FB9B920FF2E1E00B295AC /* Main.storyboard in Resources */,
@@ -137,14 +220,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4942CB340163CBF173E152DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FontDemo/Pods-FontDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95D0D30870CC6CB42FBF3435 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FontDemo/Pods-FontDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A4E8CB862EB26EDFCF4B4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FontDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB2FB9AA20FF2E1E00B295AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB2FB9B620FF2E1E00B295AC /* ViewController.m in Sources */,
+				CB2FB9CC20FF2FD000B295AC /* SecondViewController.m in Sources */,
+				CB2FB9CF20FF2FD700B295AC /* ThirdViewController.m in Sources */,
 				CB2FB9C120FF2E1E00B295AC /* main.m in Sources */,
+				CB2FB9E620FF416B00B295AC /* TestModel.m in Sources */,
+				CB2FB9ED210078ED00B295AC /* NaviViewController.m in Sources */,
+				CB2FB9C920FF2FC900B295AC /* FirstViewController.m in Sources */,
+				CB2FB9E320FF416100B295AC /* TestCell.m in Sources */,
+				CB2FB9D220FF313B00B295AC /* FirstDetailViewController.m in Sources */,
+				CB2FB9E020FF415700B295AC /* TestTableView.m in Sources */,
+				CB2FB9DA20FF403700B295AC /* SecondDetailViewController.m in Sources */,
 				CB2FB9B320FF2E1E00B295AC /* AppDelegate.m in Sources */,
+				CB2FB9DD20FF404000B295AC /* ThirdDetailViewController.m in Sources */,
+				CB2FB9D720FF35A800B295AC /* FontInstance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -276,29 +420,33 @@
 		};
 		CB2FB9C520FF2E1E00B295AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843FBCC0DF7B9B58B7E98542 /* Pods-FontDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6655SUKF64;
 				INFOPLIST_FILE = FontDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Cai.FontDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zijinsuo.fontDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CB2FB9C620FF2E1E00B295AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0172C7AFEB75C661EC5B5CB2 /* Pods-FontDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6655SUKF64;
 				INFOPLIST_FILE = FontDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Cai.FontDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zijinsuo.fontDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
